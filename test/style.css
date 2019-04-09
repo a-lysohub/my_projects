@@ -1,0 +1,107 @@
+.divs {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.side {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.imgContainer {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.pic {
+    max-height: 300px;
+    position: absolute;
+}
+
+.pic1 {
+    visibility: hidden;
+}
+
+.pic2 {
+    visibility: hidden;
+}
+
+.pic3 {
+    visibility: visible;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: space-between;
+}
+
+.containerForInputs {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.containerForButtons {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.containerForSelect {
+    margin: 5px;
+}
+
+.colorRed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.colorOrange {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.colorGreen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/*
+.row {
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}*/

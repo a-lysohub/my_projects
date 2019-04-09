@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>task4-2</title>
+<!--<script defer src="script.js"></script>-->
+<script defer async src="script.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="containerForInputs container">
+    <span>time for red color</span>
+    <input type="number" size="10" id="timeForRed" min="1" max="100" value="1">
+    <span>time for orange color</span>
+    <input  type="number" size="10" id="timeForOrange" min="1" max="100" value="1">
+    <span>time for green color</span>
+    <input type="number" size="10" id="timeForGreen" min="1" max="100" value="1">
+</div>
+
+<div class="containerForButtons container">
+    <button id="startBttn">start</button>
+    <button id="finishBttn" disabled>finish</button>
+</div>
+
+<div class="containerForSelect container">
+    <select id="selImg" class="select">
+        <option id="img1" value="img 01">img 01</option>
+        <option id="img2" value="img 02">img 02</option>
+        <option id="img3" value="img 03">img 03</option>
+    </select>
+</div>
+
+<div class="container">
+    <div class="imgContainer">
+        <div class="colorRed row">
+            <div class="divs firstRow side" id="firstLeft"></div>
+            <div class="divs firstRow center" id="firstCenter"></div>
+            <div class="divs firstRow side" id="firstRight"></div>
+        </div>
+        <div class="colorOrange row">
+            <div class="divs secondRow side" id="secondLeft"></div>
+            <div class="divs secondRow center" id="secondCenter"></div>
+            <div class="divs secondRow side" id="secondRight"></div>
+        </div>
+        <div class="colorGreen row">
+            <div class="divs thirdRow side" id="thirdLeft"></div>
+            <div class="divs thirdRow center" id="thirdCenter"></div>
+            <div class="divs thirdRow side" id="thirdRight"></div>
+        </div>
+    </div>
+    <img class="pic1 pic" src="img001.png">
+    <img class="pic2 pic" src="img002.png">
+    <img class="pic3 pic" src="img003.png">
+</div>
+
+</body>
+</html>
